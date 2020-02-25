@@ -1,4 +1,4 @@
-package tfgui;
+package spoolr;
 
 /**
  * This is the abstract class for a manager.

@@ -1,4 +1,4 @@
-package tfgui;
+package spoolr;
 
 import com.pi4j.io.gpio.GpioController;
 import com.pi4j.io.gpio.GpioFactory;
@@ -23,14 +23,6 @@ import com.pi4j.io.gpio.event.GpioPinListenerDigital;
 public class GPIOManager extends Manager
 {
 	private boolean enabled;
-	
-	/**
-	 * Booleans are for testing.
-	 */
-	private boolean motorForward;
-	private boolean motorReverse;
-	
-	private AugerManager augerController;
 	
 	GpioController gpio;
 	GpioPinDigitalInput augerSensorPin;

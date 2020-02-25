@@ -1,4 +1,4 @@
-package tfgui;
+package spoolr;
 
 /**
  * The abstract class for a connection.
@@ -7,7 +7,6 @@ package tfgui;
  * connections are complete before performing an action.
  * 
  * @author cyberpunkprogrammer
- *
  */
 
 public abstract class Connection

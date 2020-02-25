@@ -1,4 +1,4 @@
-package tfgui;
+package spoolr;
 
 import java.util.ArrayList;
 
